@@ -26,13 +26,13 @@ Guarding consumers against counterfeit products is crucial. This project, built 
 4. **Setup Local Blockchain** ⛓️
    - Open Ganache and create a new workspace.
    - Add `truffle-config.js` from your project to the workspace.
-   - Change the port in server settings to 7545 (same as port in `truffle-config.js`).
+   - Change the port in server settings to 8545 (same as port in `truffle-config.js`).
 
 5. **Configure MetaMask** 🦊
    - In your Chromium-based browser (e.g., Chrome), open MetaMask.
    - Add a new test network with these settings:
      - NETWORK ID: 5777 (from Ganache Server settings)
-     - RPC SERVER: HTTP://127.0.0.1:7545 (from Ganache Server settings)
+     - RPC SERVER: HTTP://127.0.0.1:8545 (from Ganache Server settings)
      - CHAIN CODE: 1337
 
 6. **Import Accounts from Ganache** 💼
